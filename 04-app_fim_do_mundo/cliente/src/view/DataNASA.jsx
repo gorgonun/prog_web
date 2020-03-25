@@ -41,7 +41,7 @@ const DataNASA = (props) => {
       props.onDataValida(novaData)
     } else {
       // FIXME Algo deve ser feito quando a data for inválida. Dica: analise props
-      props.onDataValida('2020-03-19')
+      props.onDataInvalida('2020-03-19')
     }
   }
 
